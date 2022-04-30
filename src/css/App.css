@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arbutus Slab', serif;
+  font-weight: lighter;
+}
+
+.text-one{
+  margin: 40px 60px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.texto-um{
+  width: 45%;
+  margin-left: 50px;
+}
+
+h1{
+  letter-spacing: 5px;
+  width: fit-content;
+  font-size: 28px;
+  color: black;
+  margin: 20px 0;
+  text-align: left;
+}
+
+p{
+  width: fit-content;
+  text-align: left;
+  padding: 3px;
+  line-height: 35px;
+}
+
+#notebook-image{
+  height: 250px;
+  width: 450px;
+  margin-top: 50px;
+}
+
+.text-two{
+  margin: 0 0 40px 100px;
+  width: 45%;
+}
+
+h2{
+  width: fit-content;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.start-button{
+height: 35px;
+width: 200px;
+border-radius: 10px;
+background-color: #89BF11;
+}
+
+.text-three{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+#image-goGreen{
+  width: 450px;
+  height: 400px;
+}
+
+.texto-tres{
+  padding: 20px;
+  text-align: center;
+  width: fit-content;
+}
+
+.texto-tres h3{
+  text-align: center;
+}
+
+#p-texto-tres{
+text-align: center;
+padding: 10px;
+line-break: loose;
+margin: 0 auto;
+}
+
+.text-four {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+#iphone{
+  width: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+.text-one{
+  width: 100%;
+  margin: 20px auto;
+}
+
+h1{
+  margin: 20px auto;
+}
+
+p{
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.text-two{
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+  margin: 20px auto;
+}
+
+.start-button{
+  margin: 0 auto;
+}
+
+.text-three{
+  flex-direction: column;
+}
+
+#image-goGreen{
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.texto-tres{
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  width: fit-content;
+}
+
+
+
+}
+
+
