@@ -8,7 +8,7 @@ import Nav from "./components/Nav";
 
 const Routes = () => {
     return(
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Route component = { Home }  path="/" exact/>
             <Route component = {Nav} path="/nav" />
             <Route component = { Maps }  path="/maps" />
