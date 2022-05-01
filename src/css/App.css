@@ -54,6 +54,10 @@ h2{
   margin-bottom: 16px;
 }
 
+#h2-text-two{
+  margin: 0
+}
+
 .start-button{
 height: 35px;
 width: 200px;
@@ -152,6 +156,8 @@ p{
 
 #h2-text-two{
   font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .start-button{
