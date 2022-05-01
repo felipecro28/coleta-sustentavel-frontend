@@ -18,16 +18,16 @@
 
 .texto-um{
   width: 45%;
-  margin-left: 50px;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
 }
 
-h1{
+#coleta{
+  display: flex;
   letter-spacing: 5px;
-  width: fit-content;
-  font-size: 28px;
-  color: black;
-  margin: 20px 0;
-  text-align: left;
+  font-size: 32px;
+  padding-bottom: 25px;
 }
 
 p{
@@ -51,7 +51,7 @@ p{
 h2{
   width: fit-content;
   font-size: 16px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .start-button{

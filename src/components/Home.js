@@ -4,12 +4,15 @@ import linha from '../assets/Line 2.png'
 import goGreen from '../assets/Go Green Recycling 1.png'
 import notebook from '../assets/MacBook Pro 16.png'
 import iphone from '../assets/iPhone 12 Pro.png'
+import Nav from './Nav'
+
 
 function Home (){
     return <main>
+      <Nav />
   <div class="text-one">
     <div class='texto-um'>
-      <h1> Coleta Sustentável </h1>
+      <p id='coleta'> Coleta Sustentável </p>
       <p>Nosso objetivo é que você 
       encontre um ponto de 
       coleta <br></br>de algum material 
