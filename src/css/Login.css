@@ -1,15 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .div-login{
     width: 100%;
-    height: 57vh;
+    height: 61.8vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Arbutus Slab', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h2{
     width: fit-content;
-    margin: 25px auto 70px;
+    margin: 25px auto 30px;
     font-size: 23px;
 }
 
@@ -19,13 +26,14 @@ form{
     width: 70%;
     display: flex;
     flex-direction: column;
-    margin: 10px auto;
+    margin: 20px auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 input{
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
-    width: 450px;
+    width: 400px;
     border-radius: 5px;
     height: 30px;
 }
@@ -36,14 +44,63 @@ input{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 10px;
+    font-size: 13px;
+}
+
+.crie-cadastro p{
+    cursor: pointer;
 }
 
 button{
+    margin-top: 30px;
     font-size: 14px;
     height: 35px;
     width: 200px;
     border-radius: 10px;
     background-color: #89BF11;
+    cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+
+main{
+    max-width: 100vh;
+}
+
+.div-login{
+    height: 63vh;
+}
+
+.div-login-secundaria{
+    height: fit-content;
+}
+
+h2{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+input{
+    width: 200px;
+    margin-top: 5px;
+}
+
+label{
+    font-size: 14px;
+}
+
+.crie-cadastro{
+    width: 100%;
+    flex-direction: column;
+}
+
+.crie-cadastro p{
+    font-size: 12px;
+}
+
+
+}
+
 
