@@ -1,6 +1,6 @@
 import '../css/cadastro.css'
 import Nav from './Nav'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import Rodape from './Rodape'
 
 function Cadastro (){
