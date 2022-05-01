@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/coleta-sustentavel-frontend/static/css/main.6764a25f.css",
+    "main.js": "/coleta-sustentavel-frontend/static/js/main.3334ed38.js",
+    "static/js/787.ed416031.chunk.js": "/coleta-sustentavel-frontend/static/js/787.ed416031.chunk.js",
+    "static/media/iPhone 12 Pro.png": "/coleta-sustentavel-frontend/static/media/iPhone 12 Pro.1475e094f61b94db570e.png",
+    "static/media/Go Green Recycling 1.png": "/coleta-sustentavel-frontend/static/media/Go Green Recycling 1.acc1692b0dd12f241c57.png",
+    "static/media/logo-coleta.png": "/coleta-sustentavel-frontend/static/media/logo-coleta.3e0fb3e06a10326c2dcf.png",
+    "static/media/MacBook Pro 16.png": "/coleta-sustentavel-frontend/static/media/MacBook Pro 16.e256e736bf8660e72658.png",
+    "index.html": "/coleta-sustentavel-frontend/index.html",
+    "main.6764a25f.css.map": "/coleta-sustentavel-frontend/static/css/main.6764a25f.css.map",
+    "main.3334ed38.js.map": "/coleta-sustentavel-frontend/static/js/main.3334ed38.js.map",
+    "787.ed416031.chunk.js.map": "/coleta-sustentavel-frontend/static/js/787.ed416031.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6764a25f.css",
+    "static/js/main.3334ed38.js"
+  ]
+}
