@@ -8,7 +8,7 @@ function Login (){
     return <main>
         <Nav />
         <div class='div-login'>
-            <div>
+            <div class='div-login-secundaria'>
                 <h2>Se você já tem cadastro conosco, faça o login.</h2>
             </div>
             <form>
@@ -21,7 +21,7 @@ function Login (){
                 <input type="text" name="senha" />
             </label>
             <div class='crie-cadastro'>
-            <p>Crie seu cadastro</p>
+            <Link to='/cadastro' style={{textDecoration:'none', color:'black'}}><p>Crie seu cadastro</p></Link>
             <p>Esqueci a senha</p>
             </div>
 

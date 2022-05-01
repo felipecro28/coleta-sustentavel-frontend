@@ -2,12 +2,13 @@ import React from "react";
 import { GoogleMap, useLoadScript, Marker, InfoWindow } from "@react-google-maps/api";
 import { formatRelative } from "date-fns";
 import axios from "axios";
+import '../css/googlemaps.css'
 
 const libraries = ["places"]
 const mapContainerStyle = {
   width: '100%',
-  height: '380px',
-  margin: '0 auto',
+  height: '60vh',
+  margin: '10px auto',
 }
 
 const center = {

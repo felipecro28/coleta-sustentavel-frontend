@@ -5,6 +5,8 @@ import goGreen from '../assets/Go Green Recycling 1.png'
 import notebook from '../assets/MacBook Pro 16.png'
 import iphone from '../assets/iPhone 12 Pro.png'
 import Nav from './Nav'
+import Rodape from './Rodape'
+import { Link } from 'react-router-dom'
 
 
 function Home (){
@@ -30,8 +32,8 @@ function Home (){
 
 
   <div class="text-two">
-    <h2> Não existe planeta b, vamos nos unir?</h2>
-    <button class="start-button">Começar</button>
+    <h2 id='h2-text-two'> Não existe planeta b, vamos nos unir?</h2>
+    <Link to='/login' style={{ textDecoration: 'none', color: 'white', margin: '0 auto'}}> <button class="start-button">Começar</button></Link>
   </div>
 
   <div class="text-three">
@@ -52,6 +54,7 @@ function Home (){
       municípios <br></br> brasileiros não tratam de forma
       adequada <br></br> o entulho gerado pela 
       construção civil.</p>
+      <img src={linha} alt='imagem de linha' id='imagem-linha' width={430} />
   </div>
 
   </div>
@@ -71,6 +74,7 @@ function Home (){
     <img src={iphone} alt='' id='iphone' ></img>
     </div>
   </div>
+  <Rodape />
 </main>
 }
 

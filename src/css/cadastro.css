@@ -1,0 +1,45 @@
+*{
+font-family: Poppins;
+font-style: Regular;
+font-size: 18px
+}
+
+
+form{
+    display: flex;
+    justify-self: flex-start;
+}
+
+
+.bairro-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.bairro-div label{
+ margin-right: 35px
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+.bairro-div input {
+    width: 100px;
+    margin-right: 0px;
+}
+
+@media only screen and (max-width: 768px) { 
+    .bairro-div{
+        flex-direction: column;
+        margin-left: 35px;
+    }
+
+    .bairro-div input{
+        width: 200px;
+        
+    }
+
+}
