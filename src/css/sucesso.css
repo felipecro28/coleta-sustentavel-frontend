@@ -1,0 +1,18 @@
+.sucesso {
+    width: 60%;
+    max-width: 650px;
+    background-color:#89BF11;
+    margin: 0 auto;
+    color: white; 
+    height: 40px; 
+    text-align: center
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    p{
+        font-size: 14px;
+    }
+    
+    }

@@ -5,10 +5,18 @@ font-size: 18px
 }
 
 
+.div-cadastro{
+    height: 62vh;
+    text-align: center;
+}
+
 form{
     display: flex;
-    justify-self: flex-start;
+    text-align: center;
+
 }
+
+
 
 
 .bairro-div{
@@ -32,14 +40,14 @@ input{
 }
 
 @media only screen and (max-width: 768px) { 
-    .bairro-div{
-        flex-direction: column;
-        margin-left: 35px;
+
+
+    .div-cadastro{
+        height: 63vh;
     }
 
-    .bairro-div input{
-        width: 200px;
-        
-    }
+h2{
+    font-size: 14px;
+}
 
 }
