@@ -45,13 +45,14 @@ p{
 
 .text-two{
   margin: 0 0 40px 100px;
-  width: 45%;
+  width: fit-content;
 }
 
 h2{
   width: fit-content;
   font-size: 16px;
   margin-bottom: 16px;
+  display: flex;
 }
 
 #h2-text-two{
