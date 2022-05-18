@@ -1,8 +1,22 @@
+.mapDiv{
+    height: 60vh;
+    
+}
 h1{
     display: flex;
     width: fit-content;
-    margin: 20px auto;
+    margin: 10px auto;
     font-size: 34px;
+}
+
+.adicionar-novo-local {
+    width: 220px;
+    height: 40px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto 15px;
 }
 
 

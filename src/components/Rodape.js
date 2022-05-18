@@ -12,7 +12,7 @@ function Rodape (){
 
             <div>
             <ul id='listaFooter'>
-                <li> <Link to='/onde-descartar' style={{ textDecoration: 'none', color: 'white', fontSize: '13px'}}> Onde descartar</Link> </li>
+                <li> <Link to='/onde-descartar' style={{ textDecoration: 'none', color: 'white', fontSize: '10px'}}> Onde descartar</Link> </li>
                 <li>Resíduos</li>
                 <li>Sobre nós</li>
             </ul>

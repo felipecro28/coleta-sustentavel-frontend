@@ -8,8 +8,8 @@ import Sucesso from './Sucesso';
 
 function Cadastro (props){
 
-    let [nome, setNome] = useState('Felipe')
-    let [email, setEmail] = useState('oliveira.felipe28@gmail.com')
+    let [nome, setNome] = useState('')
+    let [email, setEmail] = useState('')
     let [display, setDisplay] = useState('none')
 
     function salvaUsuario(){
