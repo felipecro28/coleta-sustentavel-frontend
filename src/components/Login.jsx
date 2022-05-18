@@ -3,18 +3,19 @@ import '../css/Login.css'
 import Nav from './Nav'
 import { Link } from 'react-router-dom'
 import Rodape from './Rodape'
-import { login } from '../functions/login'
 import { useState } from 'react'
 import axios from 'axios'
 import Sucesso from './Sucesso'
 
 
 
-function Login (){
+
+
+function Login (props){
 
     const [users, setUsers] = useState([])
     const [usuario, setUsuario] = useState('')
-    const [loginMessage, setLoginMessage] = useState('Login realizado com sucesso!')
+    const [loginMessage, setLoginMessage] = useState('')
     const [display, setDisplay] = useState('none')
 
 
@@ -34,7 +35,7 @@ function Login (){
 
     function filtrarUsuario() {
        const filtrado = users.filter(user => comparaUsuario(user, usuario))
-       if (filtrado.length == 0){
+       if (filtrado.length === 0){
         setLoginMessage('e-mail não cadastrado')
         setDisplay('flex')
         setTimeout(() => {
@@ -45,6 +46,7 @@ function Login (){
         setDisplay('flex')
         setTimeout(() => {
             setDisplay('none')
+            window.location.href = '/onde-descartar'
         }, 2000)
     }
     }
@@ -62,7 +64,9 @@ function Login (){
             <Link to='/cadastro' style={{textDecoration:'none', color:'black'}}><p>Crie seu cadastro</p></Link>
             </div>
 
-            <button type='button' onClick={filtrarUsuario}>Entrar</button>
+            <button type='button' onClick={filtrarUsuario}
+            autenticado = {false}
+            >Entrar</button>
             </form>
             <Sucesso
             mensagem = {loginMessage}

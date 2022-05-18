@@ -1,0 +1,109 @@
+.novoLocal{
+    height: 260px;
+    width: 60%;
+    background-color: rgba(63, 192, 37, 0.904);
+    align-items: center;
+    z-index: 999;
+    cursor: pointer;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    right: 20%;
+}
+
+.novoLocal h1{
+color: rgb(2, 102, 2);
+font-size: 22px;
+margin: 5px 0;
+}
+
+.formulario-novoLocal {
+    color: rgb(11, 102, 11);
+    font-size: 14px;
+}
+
+.formulario-novoLocal label {
+    margin: 0;
+}
+
+.formulario-novoLocal input {
+    margin: 2px;
+    max-width: 85%
+}
+
+.exitButton{
+    position: absolute;
+     right: 0;
+     top: -10px;
+     margin: 0
+}
+
+.exitButton1{
+    position: absolute;
+     right: 0;
+     top: -10px;
+     margin: 0
+}
+
+
+.continuar {
+    height: 150px;
+    width: 40%;
+    background-color: rgba(63, 192, 37, 0.89);
+    align-items: center;
+    z-index: 999;
+    cursor: pointer;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    right: 30%;
+    color: rgb(2, 102, 2);
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .novoLocal{
+        height: fit-content;
+        width: 80%;
+        left: 10%;
+
+    }
+
+    .novoLocal h1 { 
+        font-size: 16px;
+    }
+
+    .exitButton{
+        font-size: 10px;
+        height: fit-content;
+        width: fit-content;
+        position: absolute;
+        top: -30px;
+    }
+
+    .exitButton1{
+        font-size: 10px;
+        height: fit-content;
+        width: fit-content;
+        position: absolute;
+        top: -10px;
+        right: 0px
+    }
+
+    .continuar{
+        width: 70%;
+        left: 15%;
+    }
+
+    .continuar button{
+        max-width: 60%;
+        margin-bottom: 10px;
+        
+    }
+
+    .continuar p{
+        margin-top: 20px;
+    }
+    
+    }

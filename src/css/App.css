@@ -120,7 +120,6 @@ margin: 0 auto;
 
 #coleta{
   font-size: 20px;
-  margin: 10px auto;
 }
 
 
@@ -128,6 +127,8 @@ margin: 0 auto;
   max-width: 100%;
   display: flex;
   flex-direction: column;
+  margin: 10px -15px;
+
 }
 
 .texto-um p{
